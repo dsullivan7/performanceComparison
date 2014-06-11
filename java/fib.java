@@ -3,7 +3,7 @@ public class fib{
         {
                 int num = Integer.parseInt(args[0]);
                 long startTime = System.nanoTime();
-                System.out.println("" + fib(42));
+                System.out.println("" + fib(num));
                 long endTime = System.nanoTime();
                 System.out.println("This took: " + ((endTime - startTime )/ 1000000) +" milliseconds");
         }
