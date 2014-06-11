@@ -11,28 +11,22 @@ Run
 
 Fibonacci
 
-`cd node
-
+```cd node
 node fib 42
-`
+```
 
-`cd java
-
+```cd java
 javac fib.java
-
 java fib 42
-`
+```
 
 Multiple Requests
 
-`cd node
-
+```cd node
 node multirequest 40 http://proxyhost:proxyport
-`
+```
 
-`cd java
-
+```cd java
 javac mulirequest.java
-
 java -DproxyHost=proxyHost -DproxyPort=proxyPort multirequest 40 
-`
+```
