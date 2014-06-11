@@ -1,6 +1,7 @@
 public class fib{ 
         public static void main(String [] args)
         {
+                int num = Integer.parseInt(args[0]);
                 long startTime = System.nanoTime();
                 System.out.println("" + fib(42));
                 long endTime = System.nanoTime();

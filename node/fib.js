@@ -7,9 +7,9 @@ function fib(n){
 
 }
 
-
+var num = process.argv[2];
 var start = new Date().getTime();
-console.log(fib(42));
+console.log(fib(num));
 var end = new Date().getTime();
 
 console.log("This took: " + (end - start) + " milliseconds");
